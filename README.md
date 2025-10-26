@@ -1,24 +1,26 @@
 # DevOps Simulator
 
-<<<<<<< HEAD
 A comprehensive CI/CD configuration management tool for enterprise deployments.
 
 ## Project Status
-- **Version**: 1.0.0 (Production), 2.0.0-beta (Development)
-- **Environments**: Production & Development
-- **Student**: [YOUR NAME]
-- **Student ID**: [YOUR ID]
+*Version*: 1.0.0 (Production)  
+*Environment*: Production  
+*Maintainer*: DevOps Team  
 
-## Features
+*Development Version*: 2.0.0-beta (Development)  
+*Environment*: Development  
+*New Features (In Development)*:
+- 🚀 Kubernetes orchestration support
+- 🔄 Advanced blue-green deployment
+- 📊 Enhanced monitoring dashboard
+- 🔐 OAuth2 authentication
+- 🐳 Docker Compose integration
+- *NEW*: Multi-cloud support (AWS, Azure, GCP)
+- *NEW*: Slack/Discord notifications
 
-### Core Features
-=======
-**EXPERIMENTAL BUILD** - Advanced CI/CD configuration management with AI integration.
-
-## Project Status
-**Version**: 3.0.0-experimental  
-**Environment**: Testing  
-**Maintainer**: DevOps Innovation Team
+*Version*: 3.0.0-experimental  
+*Environment*: Testing  
+*Maintainer*: DevOps Innovation Team
 
 ## Cutting-Edge Features
 - 🤖 AI-powered deployment optimization
@@ -28,36 +30,48 @@ A comprehensive CI/CD configuration management tool for enterprise deployments.
 - 🌊 Event-driven architecture
 - 🎯 Chaos engineering tools
 
-## Legacy Features
->>>>>>> conflict-simulator
+## Features
 - Automated deployment scripts
 - Real-time monitoring
 - Configuration management
 - Backup and recovery system
 
-<<<<<<< HEAD
-### Production Features
-- SSL/TLS encryption
-- Auto-scaling
-- Load balancer integration
-- Scheduled backups
-
-### Development Features (Beta)
--  Docker Compose integration
--  Hot reload enabled
--  Debug mode active
--  Enhanced logging
--  Mock external APIs
-
 ## Quick Start
 
-### Production Mode
-```bash
-export DEPLOY_ENV=production
-./scripts/deploy.sh
+### Production
+1. Clone the repository
+2. Configure environment variables
+3. Run deployment script
+4. Monitor system health
+
+### Development
+1. Clone the repository
+2. Install dependencies: npm install
+3. Configure environment variables
+4. Run in development mode: npm run dev
+5. Access dashboard at http://localhost:3000
+
+## AI Integration
+Our system now uses machine learning to:
+- Predict optimal deployment times
+- Auto-scale based on predicted load
+- Detect anomalies before they cause issues
+- Suggest configuration improvements
+
+
+## Development Setup
+bash
+# Install dependencies
+npm install
+
+# Run tests
+npm test
+
+# Start development server
+npm run dev
 =======
 ## Quick Start - Advanced Mode
-```bash
+bash
 # Install AI dependencies
 pip install tensorflow keras
 
@@ -68,25 +82,11 @@ pip install tensorflow keras
 npm run start:ai
 ```
 
-## Quick Start - Standard Mode
-1. Clone the repository
-2. Configure environment variables
-3. Run deployment script with `--experimental` flag
-4. Monitor system through AI dashboard
-
-## AI Integration
-Our system now uses machine learning to:
-- Predict optimal deployment times
-- Auto-scale based on predicted load
-- Detect anomalies before they cause issues
-- Suggest configuration improvements
-
 ## Documentation
-See `/docs` folder and `/docs/ai-integration.md`
+See /docs folder and /docs/ai-integration.md
 
 ## Warning
-⚠️ This is an experimental branch. Use at your own risk!
+⚠ This is an experimental branch. Use at your own risk!
 
 ## License
 MIT License
->>>>>>> conflict-simulator
