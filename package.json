@@ -2,6 +2,7 @@
   "name": "devops-simulator",
   "version": "2.0.0-beta",
   "description": "CI/CD Configuration Management Tool",
+
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
